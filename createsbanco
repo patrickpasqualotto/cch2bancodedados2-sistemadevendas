@@ -1,0 +1,98 @@
+CREATE TABLE tb_fornecedores(
+	cod_fornecedor BIGSERIAL PRIMARY KEY,
+	des_fornecedor VARCHAR(45)
+)
+-- se a gente considerar que esse codigo do fornecedor for ser autoincrementado trocar o bigint por bigserial
+
+CREATE TABLE tb_produtos(
+	cod_produto BIGSERIAL PRIMARY KEY,
+	des_produto VARCHAR(45),
+	val_produto DECIMAL,
+	qte_produto INT,
+	cod_fornecedor BIGINT,
+	CONSTRAINT fk_forpro FOREIGN KEY (cod_fornecedor) REFERENCES tb_fornecedores(cod_fornecedor)
+)
+
+DROP TABLE tb_funcionarios
+CREATE TABLE tb_funcionarios(
+	cod_funcionario BIGSERIAL PRIMARY KEY,
+	nom_funcionario VARCHAR(45),
+	cpf_funcionario VARCHAR(14),
+	sen_funcionario VARCHAR(50),
+	fun_funcionario VARCHAR(50)
+)
+
+CREATE TABLE tb_vendas(
+	cod_venda BIGSERIAL PRIMARY KEY,
+	time_venda TIMESTAMP,
+	val_total_venda DECIMAL(7,2),
+	cod_funcionario BIGINT,
+	CONSTRAINT fk_funven FOREIGN KEY (cod_funcionario) REFERENCES tb_funcionarios(cod_funcionario)
+)
+
+CREATE TABLE tb_itens(
+	cod_item BIGSERIAL PRIMARY KEY,
+	qte_item int,
+	val_parcial_item DECIMAL(7,2),
+	cod_produto BIGINT,
+	cod_venda BIGINT,
+	CONSTRAINT fk_proitem FOREIGN KEY (cod_produto) REFERENCES tb_produtos(cod_produto),
+	CONSTRAINT fk_venitem FOREIGN KEY (cod_venda) REFERENCES tb_vendas(cod_venda)
+)
+
+DROP TABLE tb_itens
+
+==============================
+INSERTS
+-============================
+INSERT INTO fornecedores (descricao) VALUES ('Friboi');
+INSERT INTO fornecedores (descricao) VALUES ('Ambev');
+INSERT INTO fornecedores (descricao) VALUES ('Nestlé');
+INSERT INTO fornecedores (descricao) VALUES ('Lacta');
+INSERT INTO fornecedores (descricao) VALUES ('Lindt');
+INSERT INTO fornecedores (descricao) VALUES ('Bauducco');
+INSERT INTO fornecedores (descricao) VALUES ('Coca-Cola');
+INSERT INTO fornecedores (descricao) VALUES ('PepsiCo');
+INSERT INTO fornecedores (descricao) VALUES ('Heineken');
+INSERT INTO fornecedores (descricao) VALUES ('Sadia');
+INSERT INTO fornecedores (descricao) VALUES ('Perdigão');
+INSERT INTO fornecedores (descricao) VALUES ('Danone');
+INSERT INTO fornecedores (descricao) VALUES ('Yakult');
+INSERT INTO fornecedores (descricao) VALUES ('Itambé');
+INSERT INTO fornecedores (descricao) VALUES ('Vigor');
+INSERT INTO fornecedores (descricao) VALUES ('JBS');
+INSERT INTO fornecedores (descricao) VALUES ('BRF');
+INSERT INTO fornecedores (descricao) VALUES ('Unilever');
+INSERT INTO fornecedores (descricao) VALUES ('Procter & Gamble');
+INSERT INTO fornecedores (descricao) VALUES ('Kraft Heinz');
+INSERT INTO fornecedores (descricao) VALUES ('Mars');
+INSERT INTO fornecedores (descricao) VALUES ('Ferrero');
+INSERT INTO fornecedores (descricao) VALUES ('Garoto');
+INSERT INTO fornecedores (descricao) VALUES ('Arcor');
+INSERT INTO fornecedores (descricao) VALUES ('Cargill');
+INSERT INTO fornecedores (descricao) VALUES ('Bunge');
+INSERT INTO fornecedores (descricao) VALUES ('ADM');
+INSERT INTO fornecedores (descricao) VALUES ('Mondelez International');
+INSERT INTO fornecedores (descricao) VALUES ('General Mills');
+INSERT INTO fornecedores (descricao) VALUES ('Kellogg’s');
+INSERT INTO fornecedores (descricao) VALUES ('Nestlé Waters');
+INSERT INTO fornecedores (descricao) VALUES ('Coca-Cola FEMSA');
+INSERT INTO fornecedores (descricao) VALUES ('P&G Brasil');
+INSERT INTO fornecedores (descricao) VALUES ('Natura');
+INSERT INTO fornecedores (descricao) VALUES ('Boticário');
+INSERT INTO fornecedores (descricao) VALUES ('Parmalat');
+INSERT INTO fornecedores (descricao) VALUES ('Elege');
+INSERT INTO fornecedores (descricao) VALUES ('Marfrig');
+INSERT INTO fornecedores (descricao) VALUES ('Minerva Foods');
+INSERT INTO fornecedores (descricao) VALUES ('Cervejaria Petrópolis');
+INSERT INTO fornecedores (descricao) VALUES ('Grupo Schincariol');
+INSERT INTO fornecedores (descricao) VALUES ('Cervejaria Ambev');
+INSERT INTO fornecedores (descricao) VALUES ('Cervejaria Heineken Brasil');
+INSERT INTO fornecedores (descricao) VALUES ('Cargill Agrícola');
+INSERT INTO fornecedores (descricao) VALUES ('Brasil Foods');
+INSERT INTO fornecedores (descricao) VALUES ('M. Dias Branco');
+INSERT INTO fornecedores (descricao) VALUES ('Piraquê');
+INSERT INTO fornecedores (descricao) VALUES ('Dori');
+INSERT INTO fornecedores (descricao) VALUES ('Visaqua');
+INSERT INTO fornecedores (descricao) VALUES ('Camil Alimentos');
+
