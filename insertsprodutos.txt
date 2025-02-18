@@ -1,0 +1,830 @@
+-- Fornecedor: Friboi
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Moída 1kg', 25.50, 100, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Alcatra 1kg', 35.00, 80, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Picanha 1kg', 55.00, 50, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Costela 1kg', 40.00, 70, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Filé de Frango 1kg', 18.00, 120, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Linguiça de Frango 1kg', 12.00, 200, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bife de Frango 1kg', 22.50, 150, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coxinha de Frango 500g', 10.00, 300, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Frango 1kg', 15.00, 180, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Hambúrguer Friboi 400g', 8.00, 250, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Empanado 600g', 20.00, 220, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne de Sol 1kg', 30.00, 130, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Picanha Suína 1kg', 40.00, 90, 1);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Alcatra Suína 1kg', 35.00, 110, 1);
+
+-- Fornecedor: Coca-Cola
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 2L', 4.99, 200, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola Zero 2L', 5.50, 180, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola Diet 2L', 5.00, 220, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Guaraná Antarctica 2L', 4.50, 210, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fanta Laranja 2L', 4.20, 250, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fanta Uva 2L', 4.20, 230, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sprite 2L', 4.30, 240, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Schweppes 1L', 4.70, 150, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola com Cafeína 600ml', 5.80, 140, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola Plus 1L', 6.00, 120, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Diet Fanta 2L', 4.60, 200, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola Lata 350ml', 3.00, 250, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola Pet 600ml', 4.00, 270, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fanta Guaraná 2L', 4.10, 220, 7);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coca-Cola 600ml', 3.50, 300, 7);
+
+-- Fornecedor: Nestlé
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Nestlé 100g', 6.80, 150, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Achocolatado Nestlé 400g', 4.50, 200, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Nescau 400g', 5.00, 180, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Sortidos Nestlé 300g', 7.20, 130, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Condensado Nestlé 395g', 3.80, 150, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite em Pó Nestlé 400g', 10.00, 100, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mingau Nestlé 250g', 3.20, 220, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pudim Nestlé 250g', 5.50, 180, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sorvete Nestlé 1L', 15.00, 70, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Nescafé 50g', 7.80, 140, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite UHT Nestlé 1L', 4.60, 200, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Branco Nestlé 100g', 8.50, 90, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Nestlé 300g', 6.00, 160, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Café Solúvel Nescafé 100g', 9.50, 80, 3);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Matinal Nestlé 300g', 7.20, 150, 3);
+-- Fornecedor: Lacta
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta Ao Leite 90g', 5.50, 200, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Lajotinha 120g', 6.20, 180, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Ao Leite 150g', 7.00, 160, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta 200g', 8.50, 140, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Bis 120g', 5.80, 200, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Chocolate Branco 100g', 6.50, 220, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Ouro 90g', 6.00, 210, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta Lata 250g', 12.00, 130, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Meio Amargo 100g', 7.80, 140, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Bis Branco 120g', 6.00, 150, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Trufado 150g', 9.50, 90, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta Duo 150g', 8.80, 100, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Ao Leite 300g', 15.00, 80, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lacta Bis Ao Leite 150g', 7.00, 120, 4);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta Recheado 150g', 10.00, 100, 4);
+
+-- Fornecedor: Lindt
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lindt Ao Leite 100g', 15.00, 50, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Chocolate Amargo 100g', 18.50, 40, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Lindor 200g', 25.00, 30, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lindt Intenso 85% 100g', 20.00, 60, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Ao Leite 150g', 22.00, 70, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Chocolate Branco 100g', 16.50, 55, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Chocolate Trufado 200g', 30.00, 45, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Lindor Milk 200g', 28.00, 50, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Ao Leite com Amêndoas 100g', 18.00, 40, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Mint Intense 100g', 19.50, 45, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Gianduja 150g', 22.00, 50, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Lindor Hazelnut 200g', 32.00, 40, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lindt 70% Cacau 100g', 19.00, 60, 5);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lindt Excellence 100g', 21.00, 45, 5);
+
+-- Fornecedor: Bauducco
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Panettone Bauducco 500g', 18.00, 200, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Bauducco 200g', 4.50, 180, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Torrada Bauducco 300g', 6.00, 220, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito de Chocolate Bauducco 150g', 5.50, 210, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocotone Bauducco 500g', 19.50, 150, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Panettone Bauducco Tradicional 500g', 18.50, 200, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito de Maizena Bauducco 200g', 4.00, 230, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Torrada Bauducco Tradicional 300g', 6.30, 180, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Recheado Bauducco 150g', 5.00, 220, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Panettone Bauducco 1kg', 34.00, 120, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Bauducco de Leite 200g', 4.80, 210, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Bauducco de Chocolate 200g', 5.00, 230, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocotone Bauducco 1kg', 36.00, 100, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Bauducco Integrais 200g', 5.20, 250, 6);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Panettone Bauducco Recheado 500g', 21.00, 150, 6);
+-- Fornecedor: PepsiCo
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Lata 350ml', 3.40, 500, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Pet 600ml', 4.20, 450, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Pet 2L', 8.00, 300, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Lata 1L', 4.80, 400, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Zero Lata 350ml', 3.70, 450, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Zero Pet 600ml', 4.50, 400, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Diet Lata 350ml', 3.60, 420, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Lata 6 Unidades', 19.00, 200, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Pet 500ml', 3.10, 550, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Pet 1,5L', 6.60, 300, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Light Lata 350ml', 3.50, 450, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi 4L', 11.50, 150, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Pet 3L', 7.30, 250, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Lata 500ml', 4.10, 200, 8);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Pepsi Glass 330ml', 3.90, 180, 8);
+
+-- Fornecedor: Heineken
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Lata 350ml', 6.00, 500, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Pet 600ml', 7.50, 450, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Pet 2L', 15.00, 300, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Lata 1L', 9.00, 400, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Zero Lata 350ml', 6.50, 450, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Lata 500ml', 7.00, 400, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken 6 Unidades Lata 350ml', 36.00, 200, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Pet 500ml', 6.80, 550, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Pet 1,5L', 13.50, 300, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Glass 330ml', 6.20, 250, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Caixa 12 Latas 350ml', 72.00, 180, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Caixa 6 Latas 350ml', 36.00, 200, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken 4L', 24.00, 150, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken 5L', 30.00, 120, 9);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Heineken Long Neck 330ml', 7.50, 180, 9);
+-- Fornecedor: Sadia
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Frango Sadia 1kg', 15.50, 300, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coxa de Frango Sadia 1kg', 14.80, 350, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Linguiça Toscana Sadia 500g', 9.00, 500, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsicha Sadia 400g', 7.20, 600, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Hambúrguer Sadia 1kg', 18.00, 250, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Frango Sadia 500g', 8.00, 400, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango à Passarinho Sadia 1kg', 17.50, 300, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Inteiro Sadia 2kg', 29.00, 250, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Empanado Sadia 1kg', 22.00, 180, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bacon Sadia 500g', 12.50, 350, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsichão Sadia 1kg', 14.00, 400, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Desossado Sadia 1kg', 16.50, 300, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coxinha de Frango Sadia 500g', 8.50, 500, 10);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Grelhado Sadia 500g', 13.00, 350, 10);
+
+-- Fornecedor: Perdigão
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Frango Perdigão 1kg', 16.00, 320, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coxa de Frango Perdigão 1kg', 15.50, 400, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Linguiça Perdigão 500g', 9.50, 480, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsicha Perdigão 400g', 7.50, 600, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Hambúrguer Perdigão 1kg', 18.50, 250, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Frango Perdigão 500g', 8.50, 420, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango à Passarinho Perdigão 1kg', 18.00, 280, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Inteiro Perdigão 2kg', 30.00, 250, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Empanado Perdigão 1kg', 23.00, 200, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bacon Perdigão 500g', 13.00, 350, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsichão Perdigão 1kg', 15.00, 380, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Desossado Perdigão 1kg', 17.00, 310, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Coxinha de Frango Perdigão 500g', 9.00, 500, 11);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Grelhado Perdigão 500g', 13.50, 370, 11);
+
+-- Fornecedor: Danone
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Natural 170g', 2.00, 600, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Morango 170g', 2.20, 550, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Baunilha 170g', 2.20, 500, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Creme de Leite 200g', 3.50, 450, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Iogurte Grego Natural 140g', 3.00, 400, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Iogurte Grego Morango 140g', 3.20, 380, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Iogurte Grego Baunilha 140g', 3.20, 370, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone 1L', 6.50, 350, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone 500g', 3.20, 400, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Frutas Vermelhas 170g', 2.40, 450, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Danette Chocolate 100g', 2.80, 500, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Danone Danette Baunilha 100g', 2.80, 480, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Framboesa 170g', 2.40, 460, 12);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Iogurte Danone Pêssego 170g', 2.20, 500, 12);
+
+-- Fornecedor: Yakult
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Original 80ml', 2.50, 600, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Light 80ml', 2.70, 550, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco de Laranja 80ml', 2.80, 500, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco de Uva 80ml', 2.80, 480, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Diet 80ml', 2.60, 550, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Original Pack 5x80ml', 12.50, 200, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Light Pack 5x80ml', 13.50, 180, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco Laranja Pack 5x80ml', 14.00, 160, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco Uva Pack 5x80ml', 14.00, 160, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Diet Pack 5x80ml', 13.00, 170, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Original Pack 10x80ml', 25.00, 150, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Light Pack 10x80ml', 26.50, 140, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco Laranja Pack 10x80ml', 28.00, 130, 13);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Yakult Suco Uva Pack 10x80ml', 28.00, 120, 13);
+
+-- Fornecedor: Itambé
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Integral 1L', 4.50, 600, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Desnatado 1L', 4.20, 580, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Semidesnatado 1L', 4.40, 550, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Integral 200ml', 1.20, 1000, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Desnatado 200ml', 1.10, 950, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Itambé Semidesnatado 200ml', 1.15, 900, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Creme de Leite Itambé 200ml', 3.00, 480, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Creme de Leite Itambé 500ml', 7.00, 250, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Requeijão Itambé 200g', 4.50, 500, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Requeijão Itambé 500g', 10.00, 350, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Manteiga Itambé 200g', 5.00, 400, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Manteiga Itambé 500g', 12.00, 300, 14);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Condensado Itambé 395g', 5.00, 450, 14);
+-- Fornecedor: Vigor
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Integral 1L', 4.80, 600, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Desnatado 1L', 4.50, 580, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Semidesnatado 1L', 4.60, 550, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Integral 200ml', 1.30, 1000, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Desnatado 200ml', 1.20, 950, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Semidesnatado 200ml', 1.25, 900, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Creme de Leite Vigor 200ml', 3.20, 480, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Creme de Leite Vigor 500ml', 7.50, 250, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Requeijão Vigor 200g', 4.80, 500, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Requeijão Vigor 500g', 11.00, 350, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Manteiga Vigor 200g', 5.50, 400, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Manteiga Vigor 500g', 12.50, 300, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Condensado Vigor 395g', 5.30, 450, 15);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Leite Vigor Longa Vida 1L', 5.00, 570, 15);
+
+-- Fornecedor: JBS
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Bovina JBS Filé Mignon 1kg', 60.00, 150, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Bovina JBS Alcatra 1kg', 45.00, 200, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Bovina JBS Picanha 1kg', 70.00, 120, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Suína JBS Costela 1kg', 25.00, 250, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Suína JBS Pernil 1kg', 30.00, 300, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne Suína JBS Lombo 1kg', 35.00, 180, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne de Frango JBS Peito 1kg', 15.00, 400, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne de Frango JBS Coxa 1kg', 13.00, 450, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne de Frango JBS Sobrecoxa 1kg', 14.00, 500, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Carne de Frango JBS Asa 1kg', 12.50, 550, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Hambúrguer JBS Carne Bovina 100g', 3.00, 1000, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Hambúrguer JBS Carne Suína 100g', 2.50, 950, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsicha JBS 1kg', 8.00, 400, 16);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Linguiça JBS 1kg', 10.00, 350, 16);
+-- Fornecedor: BRF
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Resfriado BRF Peito 1kg', 16.50, 600, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Resfriado BRF Coxa 1kg', 14.00, 650, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Resfriado BRF Sobrecoxa 1kg', 14.50, 700, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Resfriado BRF Asa 1kg', 13.00, 800, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Congelado BRF Peito 1kg', 18.00, 500, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Congelado BRF Coxa 1kg', 15.50, 600, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Congelado BRF Sobrecoxa 1kg', 16.00, 650, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Linguiça BRF 1kg', 11.00, 400, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Salsicha BRF 1kg', 8.50, 450, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bacon BRF 500g', 14.50, 300, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Presunto BRF 1kg', 22.00, 200, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mortadela BRF 1kg', 18.50, 250, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Peito de Peru BRF 1kg', 35.00, 150, 17);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Frango Congelado BRF Mix 1kg', 17.50, 500, 17);
+
+-- Fornecedor: Unilever
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Margarina Becel 500g', 7.50, 550, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Margarina Becel 1kg', 14.00, 400, 18);
+
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sopa Knorr Feijão 500g', 7.80, 600, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sopa Knorr Ervilha 500g', 7.50, 650, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sopa Knorr Frango 500g', 8.00, 700, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho de Tomate Knorr 340g', 4.50, 800, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho de Tomate Knorr 680g', 8.00, 700, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho Shoyu Knorr 500ml', 6.50, 400, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho Shoyu Knorr 1L', 12.00, 300, 18);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Caldo Knorr Frango 6 cubos', 2.50, 900, 18);
+-- Fornecedor: Procter & Gamble
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Detergente Líquido P&G 500ml', 3.00, 750, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Detergente Líquido P&G 1L', 5.50, 600, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Ariel 1kg', 8.00, 500, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Ariel 2kg', 15.00, 400, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão Líquido Ariel 500ml', 7.50, 450, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão Líquido Ariel 1L', 13.00, 350, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Amaciante Downy 500ml', 5.00, 700, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Amaciante Downy 1L', 9.00, 600, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Lenços Umedecidos Pampers 48 unid.', 11.00, 350, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fraldas Pampers Supersec P 24 unid.', 24.00, 400, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fraldas Pampers Supersec M 24 unid.', 26.00, 450, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Fraldas Pampers Supersec G 24 unid.', 28.00, 500, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Shampoo Pantene 400ml', 18.00, 600, 19);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Shampoo Pantene 750ml', 28.00, 400, 19);
+
+-- Fornecedor: Kraft Heinz
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ketchup Heinz 400g', 6.00, 800, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ketchup Heinz 700g', 10.00, 650, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Maionese Heinz 500g', 9.00, 700, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Maionese Heinz 1kg', 16.00, 600, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mostarda Heinz 400g', 5.50, 750, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mostarda Heinz 700g', 9.00, 650, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho Barbecue Heinz 400g', 7.00, 800, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Molho Barbecue Heinz 700g', 11.00, 700, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Macarrão Kraft 500g', 4.00, 900, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Macarrão Kraft 1kg', 7.50, 800, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Queijo Processado Kraft 200g', 5.50, 650, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Queijo Processado Kraft 400g', 10.00, 500, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sopa Kraft Creme de Frango 60g', 2.00, 1000, 20);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sopa Kraft Creme de Ervilha 60g', 2.00, 950, 20);
+-- Fornecedor: Mars
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Snickers 50g', 3.50, 800, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Snickers 100g', 6.50, 700, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Twix 50g', 3.00, 900, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Twix 100g', 5.50, 650, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('KitKat 45g', 4.00, 800, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('KitKat 100g', 7.00, 700, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Baton 400g', 15.00, 500, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Baton 100g', 5.00, 600, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Maltesers 200g', 8.00, 500, 21);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Maltesers 400g', 14.00, 350, 21);
+
+-- Fornecedor: Ferrero
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ferrero Rocher 200g', 28.00, 450, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ferrero Rocher 300g', 39.00, 350, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Kinder Ovo 20g', 5.00, 800, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Kinder Ovo 50g', 12.00, 600, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Kinder Bueno 43g', 6.00, 700, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Kinder Bueno 100g', 13.00, 500, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ferrero Rondnoir 200g', 30.00, 400, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mon Chéri 200g', 35.00, 350, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Raffaello 150g', 25.00, 450, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Raffaello 300g', 48.00, 300, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ferrero Küsschen 200g', 22.00, 400, 22);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Ferrero Küsschen 300g', 32.00, 350, 22);
+-- Fornecedor: Garoto
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bombom Garoto 180g', 7.00, 700, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bombom Garoto 400g', 14.00, 600, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Garoto Ao Leite 100g', 5.00, 800, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Garoto Meio Amargo 100g', 5.50, 700, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Garoto Branco 100g', 5.50, 750, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Garoto Amendoim 100g', 6.00, 650, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocotone Garoto 500g', 20.00, 500, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocotone Garoto 1kg', 35.00, 400, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Garoto 200g', 4.00, 800, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Garoto 400g', 7.50, 600, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bala Garoto 100g', 2.00, 1000, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bala Garoto 300g', 5.00, 900, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bombom Garoto Laranja 180g', 8.00, 650, 23);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bombom Garoto Laranja 400g', 16.00, 500, 23);
+
+-- Fornecedor: Arcor
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chicletes Arcor 18g', 1.50, 1500, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chicletes Arcor 30g', 2.50, 1300, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bala Arcor 100g', 3.00, 1000, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Bala Arcor 200g', 5.50, 900, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Arcor 150g', 8.00, 700, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Arcor 300g', 14.00, 600, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Arcor 150g', 4.00, 800, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Arcor 300g', 7.00, 750, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Torrada Arcor 200g', 3.50, 900, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Torrada Arcor 400g', 6.50, 800, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Torrada Arcor 800g', 12.00, 500, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Arcor Recheado 150g', 4.50, 850, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Arcor Recheado 300g', 8.00, 600, 24);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Arcor Amargo 100g', 6.00, 750, 24);
+-- Fornecedor: Mondelez International
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Oreo 150g', 4.50, 800, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Oreo 300g', 8.00, 600, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Trakinas 150g', 3.50, 850, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Trakinas 300g', 7.50, 700, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta 90g', 5.00, 800, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Lacta 180g', 9.00, 600, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Bis 120g', 5.50, 700, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolate Bis 180g', 8.00, 650, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscuit Oreo 120g', 4.00, 800, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscuit Oreo 250g', 7.80, 650, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Lacta Ao Leite 80g', 4.50, 750, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Chocolates Lacta Branco 80g', 4.80, 720, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscuit Trakinas 120g', 3.80, 850, 28);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscuit Trakinas 250g', 7.00, 700, 28);
+-- Fornecedor: General Mills
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Cheerios 250g', 6.00, 750, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Cheerios 500g', 11.00, 650, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Wheaties 250g', 6.50, 700, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Wheaties 500g', 12.00, 550, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Lucky Charms 300g', 8.00, 800, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Lucky Charms 500g', 13.00, 600, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Granola 200g', 4.50, 850, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Granola 400g', 8.00, 750, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Muffin General Mills 200g', 5.00, 700, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Muffin General Mills 400g', 9.50, 650, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mistura para Bolo Betty Crocker 500g', 10.00, 600, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Mistura para Bolo Betty Crocker 1kg', 18.00, 500, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Granola Nature Valley 300g', 7.50, 700, 29);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Granola Nature Valley 500g', 13.00, 600, 29);
+
+-- Fornecedor: Kellogg’s
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Cornflakes 250g', 4.50, 800, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Cornflakes 500g', 8.00, 700, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Special K 300g', 6.00, 750, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Special K 500g', 10.00, 650, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Rice Krispies 250g', 5.50, 800, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Cereal Rice Krispies 500g', 9.00, 700, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Club Social 200g', 4.00, 850, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Club Social 400g', 7.50, 750, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Crackers 150g', 3.50, 900, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Biscoito Crackers 300g', 6.50, 700, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Muffin Kellogg’s 200g', 5.50, 750, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Muffin Kellogg’s 400g', 10.00, 650, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Granola Kellogg’s 300g', 6.50, 700, 30);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Granola Kellogg’s 500g', 11.00, 600, 30);
+-- Fornecedor: Nestlé Waters
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé 500ml', 1.50, 1200, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé 1L', 2.50, 1000, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé 5L', 8.00, 600, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé 200ml', 1.00, 1500, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé 10L', 15.00, 450, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé com Gás 500ml', 1.80, 1200, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé com Gás 1L', 3.00, 900, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé com Gás 5L', 9.00, 700, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé com Gás 200ml', 1.20, 1400, 31);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Água Nestlé com Gás 10L', 17.00, 500, 31);
+
+-- Fornecedor: Coca-Cola FEMSA
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 350ml', 2.20, 1000, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 600ml', 3.00, 800, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 2L', 6.50, 600, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 500ml', 2.80, 1000, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola 3L', 8.00, 500, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola Zero 350ml', 2.50, 800, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola Zero 600ml', 3.20, 700, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola Zero 2L', 7.00, 600, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola Zero 500ml', 3.00, 800, 32);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Refrigerante Coca-Cola Diet 350ml', 2.40, 900, 32);
+
+-- Fornecedor: P&G Brasil
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Ariel 1kg', 10.00, 800, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Ariel 2kg', 18.00, 650, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Ariel 5kg', 40.00, 500, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Omo 1kg', 10.50, 700, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Omo 2kg', 19.50, 650, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabão em Pó Omo 5kg', 42.00, 550, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Detergente Líquido Ypê 500ml', 2.20, 900, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Detergente Líquido Ypê 1L', 3.80, 700, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Detergente Líquido Ypê 5L', 18.50, 500, 33);
+INSERT INTO tb_produtos (des_produto, val_produto, qte_produto, cod_fornecedor)
+VALUES ('Sabonete Protex 85g', 1.50, 1200, 33);
+
+
+
+
+
